@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+    font-family: 'Gloock', serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+#page1{
+
+width: 100%;
+height: 120%;
+background-color: rgb(6, 6, 6);
+padding: 1vmax 4vmax;
+
+
+}
+nav{
+    width: 100%;
+    height:10vh ;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(185, 181, 181);
+    font: 100 1vw "gilroy ";
+    font-size: 1.3vmax;
+}
+nav > h1 {
+    font: 900 2.5vmax "Blood Crow";
+    letter-spacing: 3px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: 100;
+}
+nav ul li {
+    padding: 0 2vmax;
+     color: rgba(240, 248, 255, 0.399);
+     font-size: 1.3vmax;
+
+    
+}
+span p {
+    display: flex;
+    align-items: center;
+
+}
+
+
+#section1{
+    width: 100%;
+    height: 50vh;
+    margin-top: 2vmax;
+
+    display: flex;
+    
+}
+#s1-left {
+    width: 50%;
+    height: 100%;
+    margin-right: 5vmax;
+    margin-bottom: -5vmax;
+    
+    
+    
+}
+#s1-left h1{
+    font-size: 6.5vmax;
+    font-weight: 800;
+      color: white;
+      line-height: 6.5vmax;
+            
+      
+      
+}
+
+
+
+
+#s1-left img {
+    width: 5vmax;
+    height: 5vmax;
+    object-fit: cover;
+    object-position: top;
+    border: .3vmax solid black;
+    border-radius: 50%;
+
+}
+#s1-left span {
+    
+    margin-left: -6vmax;
+}
+
+
+
+#s1-left img:nth-child(4){
+    transform: translateX(-3vmax);
+}
+#s1-left img:nth-child(5){
+    transform: translateX(-6vmax);
+
+} 
+#below-part{
+    width: 100%;
+    height: 10%;
+    margin-top: 1vmax;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.495);
+
+}
+
+
+
+
+#s1-right{
+    width: 50%;
+    height: 100%;
+    background-color: #B3A0CF;
+    clip-path: polygon(73% 7%, 74% 13%, 77% 18%, 97% 18%, 100% 23%, 100% 99%, 0 100%, 0 0, 64% 0, 70% 2%);
+    border-radius: 5%;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+
+}
+#s1-right p{
+    font: 500 1vmax "Gilroy";
+    margin: 2% 3%;
+}
+
+
+
+
+#circle {
+    position: absolute;
+    right: 9%;
+    top: 19%;
+    z-index: 10000;
+}
+#circle span{
+    
+    width: 1vmax;
+    height: 1vmax;
+    display: inline-block;
+    border-radius: 50%;
+    border: .2vmax solid white;
+
+
+}
+#circle span:first-child{
+     margin: 0  1vmax;
+    background-color: white;
+}
+
+
+#input {
+    width: 95%;
+    height: 15%;
+    border: .2vmax solid black;
+    border-radius: 10vmax;
+    padding: .2vmax .4vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0  2vmax 1vmax;
+
+}
+#input p{
+    font-size: 1vmax;
+    font-weight: 
+}
+#input i {
+    font-size: 2.5vmax;
+
+}
+
+
+#section2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-top: 5vmax;
+    justify-content: space-between;
+    
+}
+
+
+
+#s2-left{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3vmax 1vmax 2vmax 1vmax ;
+   
+    justify-content: space-between;
+
+
+
+}
+#s2-l-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+#s2-l-logo i{
+    font-size: 3vmax;
+}
+#s2-l-logo p{
+    font-size: 1vmax;
+    font-weight: 600;
+    margin-left: .5vmax
+    ;
+
+
+}
+#s2-l-buttons{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+     
+   
+
+}
+#s2-l-buttons button {
+    color: white;
+    font-size: 1.3vmax;
+    text-align: start;
+   padding: 0.2vmax 1.5vmax;
+    border-radius: 2vmax;
+    margin-bottom: .2vmax;
+    background-color: transparent;
+    border: .2vmax solid white;
+
+
+}
+
+#s2-right{
+
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#s2-r1{
+    height: 100%;
+    width: 33%;
+    clip-path: polygon(64% 6%, 75% 0%, 100% 0, 100% 100%, 0 100%, 0 6%);
+    background-color: #FF5403;
+    border-radius: 1.5vmax;
+    padding: 3vmax 1vmax 2vmax 1vmax ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#s2-r1 p{
+    font: 600 1vmax "Gilroy";
+
+}
+#s2-r1 i{
+    font-size: 4vmax;
+
+}
+#s2-r2{
+    height: 100%;
+    width: 33%;
+    clip-path: polygon(64% 6%, 75% 0%, 100% 0, 100% 100%, 0 100%, 0 6%);
+    background-color: #E0E0E0;
+    border-radius: 1.5vmax;
+    padding: 2vmax 2vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    
+}
+#s2-r2 p{
+    font-weight: 800;
+    font-size: 3vmax;
+}
+#s2-r2circle{
+    display: flex;
+    align-items: center;
+    
+    
+}
+#s2-r2circle span {
+    
+    width: .8vmax;
+    height: .8vmax;
+    display: inline-block;
+    border-radius: 50%;
+    border: .2vmax solid black;
+
+
+}
+#s2-r2circle  span:first-child{
+    margin: .2vmax;
+    background-color: black;
+}
+#s2-r2circle i{
+    margin-left: 13vmax;
+    font-size: 4vmax;
+    font-weight: 100;
+}
+
+#s2-r3{
+    height: 100%;
+    width: 33%;
+    clip-path: polygon(64% 6%, 75% 0%, 100% 0, 100% 100%, 0 100%, 0 6%);
+    background-color: #FCC959;
+    border-radius: 1.5vmax;
+    padding: 3vmax 1vmax 1vmax 1.5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#s2-r3 h1{
+    font-size: 5.5vmax;
+    font-weight: 700;
+    word-spacing: -1.4vmax;
+}
+#s2-r3 p{
+    font-size: 1.5vmax;
+    font-weight: 800;
+
+}
+
+
+
+
+
+
